@@ -1,11 +1,11 @@
 ---
 layout: default
-title: International Planning Competition 2023 - Numerical Tracks
+title: International Planning Competition 2023 - Numeric Tracks
 ---
 
-# International Planning Competition 2023 - Numerical Tracks
+# International Planning Competition 2023 - Numeric Tracks
 
-This is the website for the numerical tracks of the [IPC 2023](https://ipc2023.github.io).
+This is the website for the numeric tracks of the [IPC 2023](https://ipc2023.github.io).
 
 
 ## Calls
@@ -53,5 +53,5 @@ Comming soon
  - [Joan Espasa Arxer](https://joanespasa.github.io) (University of St Andrews)
  - [Enrico Scala](https://sites.google.com/view/enricoscalashomepage/) (University of Brescia)
 
-Contact us: [ipc2023-numerical@googlegroups.com](ipc2023-numerical@googlegroups.com)
+Contact us: [ipc2023-numerical@googlegroups.com](ipc2023-numeric@googlegroups.com)
 
