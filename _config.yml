@@ -4,8 +4,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: International Planning Competition 2023 Numerical Tracks
-description: IPC 2023 - Numerical Tracks
+title: International Planning Competition 2023 Numeric Tracks
+description: IPC 2023 - Numeric Tracks
 
 # Build settings
 theme: jekyll-theme-leap-day
