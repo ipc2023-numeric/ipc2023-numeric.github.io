@@ -1,2 +1,2 @@
-# ipc2023-numerical.github.io
- IPC 2023 Numerical Tracks 
+# ipc2023-numeric.github.io
+ IPC 2023 Numeric Tracks 
