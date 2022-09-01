@@ -5,7 +5,7 @@
                               Call for Domains
 
                          https://ipc2023.github.io
-                         ipc2023@googlegroups.com
+                         ipc2023-numeric@googlegroups.com
 ==============================================================================
 
 We are delighted to announce the International Conference on Planning and
@@ -17,7 +17,7 @@ planning community, and provide new and interesting problems as benchmarks for
 future research.
 
 If you would like to design a domain for the competition please contact us
-before September 30 (ipc2023@googlegroups.com). An informal email telling us you
+before September 30 (ipc2023-numeric@googlegroups.com). An informal email telling us you
 want to make a submission is enough. We will then collaborate in adapting the
 domains to suit the IPC, but we ask you to think about the ability to easily
 scale problem difficulty. If you don't have a domain yourself, but you can think
@@ -53,4 +53,4 @@ that others can use and build on your domain.
 If you have a domain in mind but have doubts whether it would be appropriate
 for the IPC, don't hesitate to contact us!
 
-Joan and Enrico - ipc2023-numerical@googlegroups.com
+Joan and Enrico - ipc2023-numeric@googlegroups.com
