@@ -41,7 +41,7 @@ Please forward the following calls to all interested parties.
  - If an invalid plan is returned, all tasks in the domain are counted as unsolved.
  - If that happens in more than one domain, the entry is disqualified.
 
-Agile Track
+### Agile Track
 
  - single CPU core
  - 8Gb memory limit
