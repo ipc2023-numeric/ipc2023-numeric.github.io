@@ -8,15 +8,17 @@
                          ipc2023-numeric@googlegroups.com
 ==============================================================================
 
-We are delighted to announce the International Conference on Planning and
+We are delighted to announce that the International Conference on Planning and
 Scheduling (ICAPS) 2023 in Prague will host a next iteration of the
-International Planning Competition (IPC). It empirically evaluates
+International Planning Competition (IPC), including a track specific for numeric planning.
+As for the other tracks, the objective is to empirically evaluate
 state-of-the-art planning systems on a number of benchmark problems. The goals
 of the IPC are to promote planning research, highlight challenges in the
 planning community, and provide new and interesting problems as benchmarks for
 future research.
 
-If you would like to design a domain for the competition please contact us
+
+If you are interested in designing a domain for the competition please contact us
 before September 30 (ipc2023-numeric@googlegroups.com). An informal email telling us you
 want to make a submission is enough. We will then collaborate in adapting the
 domains to suit the IPC, but we ask you to think about the ability to easily
@@ -36,14 +38,14 @@ as a good incentive for teams to submit high quality proposals.
 Following in the steps of the last IPC, we will select one domain for the
 Outstanding Domain Submission Award. The evaluation of the submitted domains
 will be based mainly on the following criteria:
- - does the domain model a real world application,
- - does it come with a generator with controllable difficulty,
+ - does the domain model a real world application?
+ - does it come with a generator with controllable difficulty?
  - does it have an interesting intrinsic difficulty (i.e., it is not a simple
-   problem scaled up),
+   problem scaled up)?
  - does it come with a way to find optimal solutions (e.g., a domain-specific
-   solver, or a generator that can create the optimal solutions as well).
+   solver, or a generator that can create the optimal solutions as well)?
 
-As one of the goals of the IPC is to provide a new (publicly available)
+Since one of the goals of the IPC is to provide a new (publicly available)
 set of benchmarks for future research, we plan to publish all domains
 selected for IPC 2023 in a public repository. By submitting a domain,
 you agree to this and give us the rights to do so. We recommend that you
