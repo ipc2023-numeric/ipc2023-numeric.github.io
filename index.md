@@ -72,5 +72,5 @@ Comming soon
  - [Joan Espasa Arxer](https://joanespasa.github.io) (University of St Andrews)
  - [Enrico Scala](https://sites.google.com/view/enricoscalashomepage/) (University of Brescia)
 
-Contact us: [ipc2023-numeric@googlegroups.com](ipc2023-numeric@googlegroups.com)
+Contact us: [ipc2023-numeric@googlegroups.com](mailto:ipc2023-numeric@googlegroups.com)
 
