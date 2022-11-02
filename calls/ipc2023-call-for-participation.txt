@@ -1,0 +1,85 @@
+======================================================================
+               2023 International Planning Competition
+
+                        Call for Participation
+
+                     https://ipc2023.github.io
+======================================================================
+
+The International Planning Competition is organised in the context of the
+International Conference on Planning and Scheduling (ICAPS). It empirically
+evaluates state-of-the-art planning systems on a number of benchmark problems.
+The goals of the IPC are to promote planning research, highlight challenges in
+the planning community and provide new and interesting problems as benchmarks
+for future research.
+
+The deterministic part of the IPC is the oldest one; the 10th edition will run
+in 2023 and conclude together with ICAPS, in June 2023, in Prague (Czech
+Republic). 
+
+IPC 2023 will encompass a number of tracks: classical planning, numeric
+planning, probabilistic planning, HTN planning, and learning. Each track will
+use fragments of PDDL3.1, HDDL or RDDL; more information is given track by
+track in the following links:
+
+Classical Planning: https://ipc2023-classical.github.io
+HTN: https://ipc2023-htn.github.io
+Learning: https://ipc2023-learning.github.io
+Numeric Planning: https://ipc2023-numeric.github.io
+Probabilistic Planning: https://ataitler.github.io/IPPC2023
+
+In each track, there may be subtracks, such as optimal planning, satisficing
+planning and agile planning. A competing team may participate for any track, so
+competitors are strongly encouraged to participate in every track supported by
+their planners. Details regarding the rules and evaluation criteria of all
+tracks can be found at the competition website.
+
+As in previous editions, the competitors must submit the source code of their
+planners that will be run by the organisers on the actual competition
+domains/problems, unknown to the competitors until this time. This way no
+fine-tuning of the planners will be possible.
+
+All competitors must submit a short summary (max. 300 words) and a planner
+abstract (max. 8 pages) describing their submission. After the competition, we
+encourage the participants to analyse the results of their planner and submit a
+revised version of their abstract. An important requirement for IPC 2023
+competitors is to give the organisers the right to post their paper and the
+source code of their planners on the official IPC 2023 web site.
+
+Registration and Schedule
+------------
+Further details on how to register and how to submit planners will be provided
+on the homepage corresponding to the track. Potential participants are
+requested to follow the instructions on the website of each track they are
+interested in. Note that all tracks also have their own schedule.  We are
+looking forward to an exciting competition!
+
+Organisers
+----------
+Classical Planning Track (ipc2023-classical@googlegroups.com)
+Daniel Fišer, Saarland University
+Florian Pommerening, University of Basel, Switzerland
+
+HTN Track (ipc2023-htn@googlegroups.com)
+Ron Alford, MITRE
+Dominik Schreiber, Karlsruhe Institute of Technology
+Gregor Behnke, University of Amsterdam
+
+Learning Track (ipc2023-learning@googlegroups.com)
+Jendrik Seipp, Linköping University
+Javier Segovia-Aguas, Universitat Pompeu Fabra
+
+Numeric Planning Track (ipc2023-numeric@googlegroups.com)
+Enrico Scala, University of Brescia
+Joan Espasa, University of St Andrews
+
+Probabilistic Planning Track (ippc2023-rddl@googlegroups.com)
+Ayal Taitler, University of Toronto
+Scott Sanner, University of Toronto
+
+__________________________________________
+
+
+Website:
+https://ipc2023.github.io/
+
