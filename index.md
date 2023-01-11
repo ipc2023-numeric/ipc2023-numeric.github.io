@@ -62,7 +62,17 @@ Please forward the following calls to all interested parties.
 - If that happens in more than one domain, the entry is disqualified.
 
 ## PDDL Fragment
-TBA
+
+We will use a subset of PDDL 2.1, considering two fragments:
+- Simple Numeric Planning (SNP): Numeric variables can only be increased or decreased by a constant using the increase and decrease operations.
+- Linear Numeric Planning (LNP): In addition to SNP, numeric variables can now be also assigned directly using the assign operator and the right-hand of an effect can now be a linear combination.
+
+Preconditions and goals are arbitrary propositional formulas. That is, they include quantifiers, negative preconditions, disjunctive preconditions and any number of numeric predicates. Conditional effects are not considered. Terms can either be literals as in classical planning, or numeric terms of the form f(X){ >=,>, =} 0 where f(X) is a linear expressions. Each domain of  the competition will be either a SNP or a LNP (LNP is more expressive than SNP).
+Planners supporting only SNP will be accepted and their performance will be reported when compared with respect to only SNP problems. A planner can also only support SNP. We are considering to have separate rankings.
+
+In terms of the optimisation track, the optimisation functions will always be a minimisation. Problems will either be a minimisation of action costs, or a metric function that is a weighted sum with positive coefficients where each involved variable can only be increased by the actions.
+
+Sample problems will be posted soon
 
 ## Registration
 
