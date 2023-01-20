@@ -28,57 +28,59 @@
         (total_poured) ;; The total amount of water poured so far.
         (total_loaded) ;; The total amount of water retrieved from the tap.
         (max_int) ;; The maximum integer we consider - a static value
-    )
+        (total-cost)
+        
+        )
 
     ;; Move an agent to a neighboring location
     (:action move_up
      :parameters (?a - agent)
      :precondition (and (<= (+ (y ?a) 1) (maxy)))
      :effect (and
-    		(increase (y ?a) 1)))
+    		(increase (y ?a) 1) (increase (total-cost) 1)))
 
     (:action move_down
      :parameters (?a - agent)
      :precondition (and (>= (- (y ?a) 1) (miny)))
      :effect (and
-    		(decrease (y ?a) 1)))
+    		(decrease (y ?a) 1) (increase (total-cost) 1)))
 
     (:action move_right
      :parameters (?a - agent)
      :precondition (and (<= (+ (x ?a) 1) (maxx)))
      :effect (and
-    		(increase (x ?a) 1)))
+    		(increase (x ?a) 1) (increase (total-cost) 1)))
 
     (:action move_left
      :parameters (?a - agent)
      :precondition (and (>= (- (x ?a) 1) (minx)))
      :effect (and
-    		(decrease (x ?a) 1)))
+    		(decrease (x ?a) 1) (increase (total-cost) 1)))
 
   (:action move_up_left
    :parameters (?a - agent)
    :precondition (and (>= (- (x ?a) 1) (minx)) (<= (+ (y ?a) 1) (maxy)))
    :effect (and
-      (increase (y ?a) 1) (decrease (x ?a) 1)))
+      (increase (y ?a) 1) (decrease (x ?a) 1) (increase (total-cost) 1)))
 
   (:action move_up_right
    :parameters (?a - agent)
    :precondition (and (<= (+ (x ?a) 1) (maxx)) (<= (+ (y ?a) 1) (maxy)))
    :effect (and
-      (increase (y ?a) 1) (increase (x ?a) 1)))
+      (increase (y ?a) 1) (increase (x ?a) 1) (increase (total-cost) 1)))
 
   (:action move_down_left
    :parameters (?a - agent)
    :precondition (and (>= (- (x ?a) 1) (minx)) (>= (- (y ?a) 1) (miny)))
    :effect (and
-      (decrease (x ?a) 1) (decrease (y ?a) 1) )
+      (decrease (x ?a) 1) (decrease (y ?a) 1)  (increase (total-cost) 1))
   )
 
 (:action move_down_right
  :parameters (?a - agent)
  :precondition (and (<= (+ (x ?a) 1) (maxx)) (>= (- (y ?a) 1) (miny)))
  :effect (and
-    (decrease (y ?a) 1) (increase (x ?a) 1)))
+    (decrease (y ?a) 1) (increase (x ?a) 1) (increase (total-cost) 1)))
 
     ;; Load one unit of water from a tap into the agent's bucket.
     (:action load
@@ -87,7 +89,7 @@
                        (<= (+ (total_loaded) 1) (max_int))
                        (<= (+ (carrying) 1) (max_int))
                   )
-    :effect       (and (increase (carrying) 1) (increase (total_loaded) 1))
+    :effect       (and (increase (carrying) 1) (increase (total_loaded) 1) (increase (total-cost) 1))
     )
 
     ;; Pours one unit of water from the agent's bucket into a plant.
@@ -102,6 +104,7 @@
                     (decrease (carrying) 1)
                     (increase (poured ?p) 1)
                     (increase (total_poured) 1)
+                    (increase (total-cost) 1)
                   )
     )
 )

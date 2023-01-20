@@ -32,6 +32,7 @@
 	(= (y plant4) 1)
 	(= (x plant1) 2)
 	(= (y plant1) 2)
+	(= (total-cost) 1)
   )
 
   (:goal (and 
@@ -42,7 +43,7 @@
 	(= (total_poured) (+ (+ (+ (poured plant1) (poured plant2)) (poured plant3)) (poured plant4)) )
   ))
 
-  
+  (:metric minimize (total-cost))
   
 
   

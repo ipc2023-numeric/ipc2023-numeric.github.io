@@ -72,7 +72,8 @@ Planners supporting only SNP will be accepted and their performance will be repo
 
 In terms of the optimisation track, the optimisation functions will always be a minimisation. Problems will either be a minimisation of action costs, or a metric function that is a weighted sum with positive coefficients where each involved variable can only be increased by the actions.
 
-Sample problems are here: [Domain1](sample_problems/d1.pddl), [Problem1](sample_problems/p1.pddl), [Domain2](sample_problems/d2.pddl), [Problem2](sample_problems/p2.pddl)
+Sample problems are here: [Domain1](sample_problems/d1.pddl), [Problem1](sample_problems/p1.pddl), [Domain2](sample_problems/d2.pddl), [Problem2](sample_problems/p2.pddl), [Domain3](sample_problems/d3.pddl), [Problem3](sample_problems/p3.pddl)
+
 
 ## Registration
 
