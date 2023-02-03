@@ -20,9 +20,9 @@ Please forward the following calls to all interested parties.
 |:----------------------------------------|:-----|
 | Domain submission deadline              | 9th December 2022 |
 | Demo problems provided                  | December 2022|
-| Planner submission opens                | January 2023 |
-| Planner submission closes               | March 2023  |
-| Planner Abstract submission deadline    | May 2023 |
+| Planner submission opens                | February 28 2023 |
+| Final Planner submission                | April 19 2023  |
+| Planner Abstract submission deadline    | May 24 2023 |
 | Contest run                             | May-June 2023 |
 | Results announced                       | July 2023 |
 | Result analysis deadline                | August 2023 |
@@ -77,7 +77,16 @@ Sample problems are here: [Domain1](sample_problems/d1.pddl), [Problem1](sample_
 
 ## Registration
 
-Comming soon
+We require that a planner is registered through a team. For this you need to send an e-mail with a subject containing “[Registration for Numeric Tracks]” to jea20@st-andrews.ac.uk. The email must contain:
+
+names of participants,
+email contacts,
+GitHub repository,
+Based on that, we will create a private repository under the ipc2023-numeric organization and add all participants as users with with write access and participants can commit to the repository as they wish until the “final planner submission” deadline.
+
+All participants must subscribe to the Google Group. We will announce further details on the submission process there in due time.
+
+To propose a domain for the competition, please contact the organizers (see below).
 
 ## Organizers
  - [Joan Espasa Arxer](https://joanespasa.github.io) (University of St Andrews)
