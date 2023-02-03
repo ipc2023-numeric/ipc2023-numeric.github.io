@@ -81,8 +81,10 @@ We require that a planner is registered through a team. For this you need to sen
 
 names of participants,
 email contacts,
-GitHub repository,
-Based on that, we will create a private repository under the ipc2023-numeric organization and add all participants as users with with write access and participants can commit to the repository as they wish until the “final planner submission” deadline.
+track (agile/satisficing/optimal),
+at least one github account
+
+Based on that, we will create a private repository under the ipc2023-numeric organization and add all participants as users with with write access and participants can both upload their planner there, and then commit to the repository as they wish until the “final planner submission” deadline.
 
 All participants must subscribe to the Google Group. We will announce further details on the submission process there in due time.
 
