@@ -93,9 +93,8 @@ To propose a domain for the competition, please contact the organizers (see belo
 ## Planner submission
 
 The competitors must submit the source code of their planners that will be run by the organizers on the actual competition domains/problems, unknown to the competitors until this time. This way no fine-tuning of the planners will be possible.
-We will host repositories of planners ourselves. The repositories will be hosted on Github under the ipc2023-numeric organization, and they will be kept private until the end of the competition when we make them public, i.e., after the competition is concluded, we plan to make all planners, domains, and all related data accessible from one place.
-We require participants to provide self-contained code, with scripts for compilations and running, “compile” and “run”, respectively. The code should be compilable on Ubuntu 20.04 LTS, and running has to require only three parameters as an input in the following order: the domain file, the problem file, and the name of the file where the solution will be saved.
-
+We will host repositories of planners ourselves. The repositories will be hosted on Github under the ipc2023-numeric organisation, and they will be kept private until the end of the competition when we make them public, i.e., after the competition is concluded, we plan to make all planners, domains, and all related data accessible from one place.
+We require participants to provide self-contained code, with scripts for compilations and running, “compile” and “run”, respectively. The code should be compilable on a fresh installation of Ubuntu 20.04 LTS, and running has to require only three parameters as an input in the following order: the domain file, the problem file, and the name of the file where the last solution found will be saved.
 The solution format is the usual IPC solution format, which consists of a list of actions separated by a new line.
 
 
