@@ -47,7 +47,7 @@ Please forward the following calls to all interested parties.
 - 8Gb memory limit
 - 30min time limit
 - Multiple plans can be returned, the one with the lowest cost is counted.
-- The score of a planner on a solved task is the ratio $C^*$/$C$ where $C$ is the cost of the cheapest discovered plan and $C^*$ is the cost of a reference plan. The score on an unsolved task is 0. The score of a planner is the sum of its scores for all tasks.
+- The score of a planner on a solved task is the ratio C/C where C is the cost of the cheapest discovered plan and C* is the cost of a reference plan. The score on an unsolved task is 0. The score of a planner is the sum of its scores for all tasks.
 - If an invalid plan is returned, all tasks in the domain are counted as unsolved.
 - If that happens in more than one domain, the entry is disqualified.
 
