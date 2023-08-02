@@ -74,6 +74,31 @@ In terms of the optimisation track, the optimisation functions will always be a 
 
 Sample problems are here: [Domain1](sample_problems/d1.pddl), [Problem1](sample_problems/p1.pddl), [Domain2](sample_problems/d2.pddl), [Problem2](sample_problems/p2.pddl), [Domain3](sample_problems/d3.pddl), [Problem3](sample_problems/p3.pddl)
 
+## Participant Teams
+
+- **LNM-Plan** [(planner abstract)](abstracts/NLM_CutPlan_Abstract.pdf) <br />
+  by Ryo Kuroiwa, Alexander Shleyfman and J. Christopher Beck
+- **OMTPlan** [(planner abstract)](https://content.iospress.com/articles/journal-on-satisfiability-boolean-modeling-and-computation/sat220001) <br />
+  by Francesco Leofante
+
+## Results 
+
+The results were presented at the 33rd International Conference on Automated Planning and Scheduling on July 11 in Prague.
+The [presentation slides](results/presentation.pdf) of this talk contain additional details.
+
+- Optimal Track Winner SNP: **LNM-Plan** using NLM-CutPlan Orbit
+- Optimal Track Winner LNP: **LNM-Plan** using NLM-CutPlan, NLM-CutPlan Orbit
+- Optimal Track Winner SNP+LNP: **LNM-Plan** using NLM-CutPlan Orbit
+- Satisficing Track Winner SNP: **LNM-Plan** using NLM-CutPlan SAT2
+- Satisficing Track Winner LNP: **LNM-Plan** using NLM-CutPlan SAT
+- Satisficing Track Winner SNP+LNP: **LNM-Plan** using NLM-CutPlan SAT
+- Agile Track Winner SNP: **LNM-Plan** using NLM-CutPlan SAT2
+- Agile Track Winner LNP: **LNM-Plan** using NLM-CutPlan SAT
+- Agile Track Winner SNP+LNP: **LNM-Plan** using NLM-CutPlan SAT
+
+## Domains
+
+To be updated shortly
 
 ## Registration
 
