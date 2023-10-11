@@ -98,6 +98,7 @@ The [presentation slides](results/presentation.pdf) of this talk contain additio
 
 ### Satisficing
 
+<font size="2">
 |     |                          | ENHSP hmrp | ENHSP hmrp+ha | ENHSP hmrp+ha+ht | NLM-CutPlan Sat | NLM-CutPlan OC Sat | NLM-CutPlan Sat2 | OMTPlan (Sequential)| OMTPlan (Parallel)|
 | --- | ------------------------ | ---------- | ------------- | ---------------- | --------------- | ------------------ | ---------------- | --------------------- | ------------------- |
 | SNP | block-grouping           | 19         | 20            | 19               | 0               | 0                  | 0                | 0                     | 2                   |
@@ -124,8 +125,11 @@ The [presentation slides](results/presentation.pdf) of this talk contain additio
 |     | Total                    | 191        | 267           | 264              | 136             | 88                 | 88               | 63                    | 100                 |
 |     | SNP                      | 134        | 187           | 185              | 81              | 88                 | 88               | 42                    | 77                  |
 |     | LNP                      | 76         | 99            | 98               | 70              | 0                  | 0                | 24                    | 26                  |
+</font>
 
 ### Optimal
+
+<font size="2">
 
 |     |                    | ENHSP BLIND | ENHSP OPT | NLM-CutPlan | NLM-CutPlan Orbit | NLM-CutPlan OC | NLM-CutPlan OC Orbit | OMTPlan (Sequential)| OMTPlan (Parallel)|
 | --- | ------------------ | ----------- | --------- | ----------- | ----------------- | -------------- | -------------------- | --------------------- | ------------------- |
@@ -153,7 +157,9 @@ The [presentation slides](results/presentation.pdf) of this talk contain additio
 |     | Total              | 48          | 64        | 88          | 102               | 56             | 57                   | 24                    | 29                  |
 |     | SNP                | 30          | 64        | 57          | 71                | 56             | 57                   | 17                    | 22                  |
 |     | LNP                | 21          | 0         | 36          | 35                | 0              | 0                    | 9                     | 9                   |
+</font>
 
+Note that planners that were not able to process LNP problems have zeroes in the respective cells.
 
 ## Domains
 
