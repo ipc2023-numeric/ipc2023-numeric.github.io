@@ -1,26 +1,24 @@
-|     |                          | ENHSP hmrp | ENHSP hmrp+ha | ENHSP hmrp+ha+ht | NLM-CutPlan Sat | NLM-CutPlan OC Sat | NLM-CutPlan Sat2 | OMTPlan (Sequential)| OMTPlan (Parallel)|
-| --- | ------------------------ | ---------- | ------------- | ---------------- | --------------- | ------------------ | ---------------- | --------------------- | ------------------- |
-| SNP | block-grouping           | 19         | 20            | 19               | 0               | 0                  | 0                | 0                     | 2                   |
-| SNP | counters                 | 13         | 19            | 20               | 11              | 12                 | 12               | 3                     | 20                  |
-| SNP | delivery                 | 13         | 10            | 10               | 7               | 7                  | 6                | 2                     | 2                   |
-| SNP | expedition               | 3          | 20            | 20               | 4               | 4                  | 4                | 0                     | 3                   |
-| SNP | ext-plant-watering       | 18         | 20            | 20               | 18              | 16                 | 17               | 0                     | 0                   |
-| SNP | farmland                 | 20         | 20            | 20               | 9               | 11                 | 11               | 0                     | 0                   |
-| SNP | hydropower               | 2          | 0             | 0                | 4               | 9                  | 6                | 1                     | 1                   |
-| SNP | markettrader             | 2          | 2             | 2                | 0               | 0                  | 0                | 0                     | 0                   |
-| SNP | mprime                   | 13         | 16            | 16               | 10              | 9                  | 13               | 16                    | 11                  |
-| SNP | pathwaysmetric           | 1          | 12            | 12               | 2               | 1                  | 1                | 1                     | 3                   |
-| SNP | rover                    | 6          | 8             | 8                | 3               | 6                  | 5                | 4                     | 16                  |
-| SNP | sailing                  | 20         | 20            | 20               | 8               | 8                  | 9                | 0                     | 0                   |
-| SNP | sugar                    | 4          | 20            | 18               | 5               | 5                  | 4                | 15                    | 19                  |
-| LNP | settlers/settlersnumeric | 1          | 4             | 3                | 2               | 0                  | 0                | 0                     | 0                   |
-| LNP | fo_counters              | 4          | 20            | 20               | 4               | 0                  | 0                | 4                     | 3                   |
-| LNP | fo-farmland              | 9          | 13            | 13               | 9               | 0                  | 0                | 1                     | 1                   |
-| LNP | fo-sailing               | 0          | 0             | 0                | 14              | 0                  | 0                | 1                     | 1                   |
-| LNP | tpp                      | 4          | 4             | 4                | 2               | 0                  | 0                | 4                     | 4                   |
-| LNP | drone                    | 19         | 19            | 19               | 15              | 0                  | 0                | 3                     | 3                   |
-| LNP | zenotravel               | 20         | 20            | 20               | 9               | 0                  | 0                | 8                     | 11                  |
-|     |                          |            |               |                  |                 |                    |                  |                       |                     |
-|     | Total                    | 191        | 267           | 264              | 136             | 88                 | 88               | 63                    | 100                 |
-|     | SNP                      | 134        | 187           | 185              | 81              | 88                 | 88               | 42                    | 77                  |
-|     | LNP                      | 76         | 99            | 98               | 70              | 0                  | 0                | 24                    | 26                  |
+﻿Optimal,,ENHSP BLIND,ENHSP OPT,NLM-CutPlan,NLM-CutPlan Orbit,NLM-CutPlan OC,NLM-CutPlan OC Orbit,OMTPlan (Sequential),OMTPlan (Parallel),
+SNP,block-grouping,0,2,0,0,0,0,0,1,
+SNP,counters,3,4,5,4,4,5,2,4,
+SNP,delivery,2,2,1,5,2,2,1,1,
+SNP,expedition,5,5,6,5,6,6,0,1,
+SNP,ext-plant-watering,0,0,0,0,0,0,0,0,
+SNP,farmland,4,18,11,13,7,12,0,0,
+SNP,hydropower,8,8,8,10,11,7,1,1,
+SNP,markettrader,0,0,0,0,0,0,0,0,
+SNP,mprime,4,11,13,14,10,10,5,6,
+SNP,pathwaysmetric,0,1,0,1,0,0,1,1,
+SNP,rover,4,4,3,4,2,4,4,6,
+SNP,sailing,0,3,6,7,6,6,0,0,
+SNP,sugar,0,6,4,8,8,5,3,1,
+LNP,settlersnumeric,0,0,1,1,0,0,0,0,
+LNP,fo_counters,4,0,2,3,0,0,3,3,
+LNP,fo-farmland,3,0,10,8,0,0,1,1,
+LNP,fo-sailing,2,0,7,6,0,0,1,1,
+LNP,tpp,2,0,1,2,0,0,0,0,
+LNP,drone,3,0,5,4,0,0,2,2,
+LNP,zenotravel,4,0,5,7,0,0,0,0,
+,Total,48,64,88,102,56,57,24,29,
+,SNP,30,64,57,71,56,57,17,22,
+,LNP,21,0,36,35,0,0,9,9,
