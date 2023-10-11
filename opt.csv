@@ -1,0 +1,26 @@
+|     |                          | ENHSP hmrp | ENHSP hmrp+ha | ENHSP hmrp+ha+ht | NLM-CutPlan Sat | NLM-CutPlan OC Sat | NLM-CutPlan Sat2 | OMTPlan (Sequential)| OMTPlan (Parallel)|
+| --- | ------------------------ | ---------- | ------------- | ---------------- | --------------- | ------------------ | ---------------- | --------------------- | ------------------- |
+| SNP | block-grouping           | 19         | 20            | 19               | 0               | 0                  | 0                | 0                     | 2                   |
+| SNP | counters                 | 13         | 19            | 20               | 11              | 12                 | 12               | 3                     | 20                  |
+| SNP | delivery                 | 13         | 10            | 10               | 7               | 7                  | 6                | 2                     | 2                   |
+| SNP | expedition               | 3          | 20            | 20               | 4               | 4                  | 4                | 0                     | 3                   |
+| SNP | ext-plant-watering       | 18         | 20            | 20               | 18              | 16                 | 17               | 0                     | 0                   |
+| SNP | farmland                 | 20         | 20            | 20               | 9               | 11                 | 11               | 0                     | 0                   |
+| SNP | hydropower               | 2          | 0             | 0                | 4               | 9                  | 6                | 1                     | 1                   |
+| SNP | markettrader             | 2          | 2             | 2                | 0               | 0                  | 0                | 0                     | 0                   |
+| SNP | mprime                   | 13         | 16            | 16               | 10              | 9                  | 13               | 16                    | 11                  |
+| SNP | pathwaysmetric           | 1          | 12            | 12               | 2               | 1                  | 1                | 1                     | 3                   |
+| SNP | rover                    | 6          | 8             | 8                | 3               | 6                  | 5                | 4                     | 16                  |
+| SNP | sailing                  | 20         | 20            | 20               | 8               | 8                  | 9                | 0                     | 0                   |
+| SNP | sugar                    | 4          | 20            | 18               | 5               | 5                  | 4                | 15                    | 19                  |
+| LNP | settlers/settlersnumeric | 1          | 4             | 3                | 2               | 0                  | 0                | 0                     | 0                   |
+| LNP | fo_counters              | 4          | 20            | 20               | 4               | 0                  | 0                | 4                     | 3                   |
+| LNP | fo-farmland              | 9          | 13            | 13               | 9               | 0                  | 0                | 1                     | 1                   |
+| LNP | fo-sailing               | 0          | 0             | 0                | 14              | 0                  | 0                | 1                     | 1                   |
+| LNP | tpp                      | 4          | 4             | 4                | 2               | 0                  | 0                | 4                     | 4                   |
+| LNP | drone                    | 19         | 19            | 19               | 15              | 0                  | 0                | 3                     | 3                   |
+| LNP | zenotravel               | 20         | 20            | 20               | 9               | 0                  | 0                | 8                     | 11                  |
+|     |                          |            |               |                  |                 |                    |                  |                       |                     |
+|     | Total                    | 191        | 267           | 264              | 136             | 88                 | 88               | 63                    | 100                 |
+|     | SNP                      | 134        | 187           | 185              | 81              | 88                 | 88               | 42                    | 77                  |
+|     | LNP                      | 76         | 99            | 98               | 70              | 0                  | 0                | 24                    | 26                  |
