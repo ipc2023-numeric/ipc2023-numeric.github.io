@@ -86,7 +86,8 @@ Sample problems are here: [Domain1](sample_problems/d1.pddl), [Problem1](sample_
 The results were presented at the 33rd International Conference on Automated Planning and Scheduling on July 11 in Prague.
 <img src="pictures/participants.jpg" height="400" alt="IPC attendants"/>
 
-The [presentation slides](results/presentation.pdf) of this talk contain additional details.
+The [presentation slides](results/presentation.pdf) of this talk contain additional details. 
+This is a summary:
 
 - Optimal Track Winner SNP: **LNM-Plan** using NLM-CutPlan Orbit
 - Optimal Track Winner LNP: **LNM-Plan** using NLM-CutPlan, NLM-CutPlan Orbit
