@@ -74,6 +74,34 @@ In terms of the optimisation track, the optimisation functions will always be a 
 
 Sample problems are here: [Domain1](sample_problems/d1.pddl), [Problem1](sample_problems/p1.pddl), [Domain2](sample_problems/d2.pddl), [Problem2](sample_problems/p2.pddl), [Domain3](sample_problems/d3.pddl), [Problem3](sample_problems/p3.pddl)
 
+## Domains
+
+The competition tasks can now be found in the following [Github Repository](https://github.com/ipc2023-numeric/ipc2023-dataset).
+
+## Registration
+
+We require that a planner is registered through a team. For this you need to send an e-mail with a subject containing “[Registration for Numeric Tracks]” to jea20@st-andrews.ac.uk. The email must contain:
+
+names of participants,
+email contacts,
+track (agile/satisficing/optimal),
+at least one github account
+
+Based on that, we will create a private repository under the ipc2023-numeric organization and add all participants as users with with write access and participants can both upload their planner there, and then commit to the repository as they wish until the “final planner submission” deadline.
+
+All participants must subscribe to the Google Group. We will announce further details on the submission process there in due time.
+
+To propose a domain for the competition, please contact the organizers (see below).
+
+## Planner submission
+
+The competitors must submit the source code of their planners that will be run by the organizers on the actual competition domains/problems, unknown to the competitors until this time. This way no fine-tuning of the planners will be possible.
+We will host repositories of planners ourselves. The repositories will be hosted on Github under the ipc2023-numeric organisation, and they will be kept private until the end of the competition when we make them public, i.e., after the competition is concluded, we plan to make all planners, domains, and all related data accessible from one place.
+We require participants to provide self-contained code, with scripts for compilations and running, “compile” and “run”, respectively. The code should be compilable on a fresh installation of Ubuntu 20.04 LTS, and running has to require only three parameters as an input in the following order: the domain file, the problem file, and the name of the file where the last solution found will be saved.
+The solution format is the usual IPC solution format, which consists of a list of actions separated by a new line.
+
+# After Competition!
+
 ## Participant Teams
 
 - **LNM-Plan** [(planner abstract)](abstracts/NLM_CutPlan_Abstract.pdf)[(frozen source)](https://github.com/ipc2023-numeric/team-1) <br />
@@ -101,34 +129,9 @@ This is a summary:
 
 <img src="pictures/1.jpg" height="400" alt="Winning team" />
 
-Per-domain tables of solved instances are linked here for the [Satisficing Track](sat.csv) and for the [Optimal Track](opt.csv)
-Note that when evaluating the tables, planners that were not able to process LNP problems have zeroes in the respective cells.
+Per-domain tables of solved instances are linked here for the [Satisficing Track](sat.csv) and for the [Optimal Track](opt.csv).
+Note that when evaluating the tables, planners that were not able to process LNP problems have zeroes in the respective cells. For comparisons reasons, we used a well known greedy best first search algorithm with state of the arte heuristics from the literature (Scala et al. 2020) and $A^*$ with the numeric extension of the $h_{max}$ heuristic (Scala et al. 2017) for the satisficing and the optimal track respectively. These are implemented in the ENHSP planning system.
 
-## Domains
-
-The competition tasks can now be found in the following [Github Repository](https://github.com/ipc2023-numeric/ipc2023-dataset).
-
-## Registration
-
-We require that a planner is registered through a team. For this you need to send an e-mail with a subject containing “[Registration for Numeric Tracks]” to jea20@st-andrews.ac.uk. The email must contain:
-
-names of participants,
-email contacts,
-track (agile/satisficing/optimal),
-at least one github account
-
-Based on that, we will create a private repository under the ipc2023-numeric organization and add all participants as users with with write access and participants can both upload their planner there, and then commit to the repository as they wish until the “final planner submission” deadline.
-
-All participants must subscribe to the Google Group. We will announce further details on the submission process there in due time.
-
-To propose a domain for the competition, please contact the organizers (see below).
-
-## Planner submission
-
-The competitors must submit the source code of their planners that will be run by the organizers on the actual competition domains/problems, unknown to the competitors until this time. This way no fine-tuning of the planners will be possible.
-We will host repositories of planners ourselves. The repositories will be hosted on Github under the ipc2023-numeric organisation, and they will be kept private until the end of the competition when we make them public, i.e., after the competition is concluded, we plan to make all planners, domains, and all related data accessible from one place.
-We require participants to provide self-contained code, with scripts for compilations and running, “compile” and “run”, respectively. The code should be compilable on a fresh installation of Ubuntu 20.04 LTS, and running has to require only three parameters as an input in the following order: the domain file, the problem file, and the name of the file where the last solution found will be saved.
-The solution format is the usual IPC solution format, which consists of a list of actions separated by a new line.
 
 
 ## Organizers
