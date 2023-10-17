@@ -74,31 +74,9 @@ In terms of the optimisation track, the optimisation functions will always be a 
 
 Sample problems are here: [Domain1](sample_problems/d1.pddl), [Problem1](sample_problems/p1.pddl), [Domain2](sample_problems/d2.pddl), [Problem2](sample_problems/p2.pddl), [Domain3](sample_problems/d3.pddl), [Problem3](sample_problems/p3.pddl)
 
-## Participant Teams
-
-- **LNM-Plan** [(planner abstract)](abstracts/NLM_CutPlan_Abstract.pdf) <br />
-  by Ryo Kuroiwa, Alexander Shleyfman and J. Christopher Beck
-- **OMTPlan** [(planner abstract)](https://content.iospress.com/articles/journal-on-satisfiability-boolean-modeling-and-computation/sat220001) <br />
-  by Francesco Leofante
-
-## Results 
-
-The results were presented at the 33rd International Conference on Automated Planning and Scheduling on July 11 in Prague.
-The [presentation slides](results/presentation.pdf) of this talk contain additional details.
-
-- Optimal Track Winner SNP: **LNM-Plan** using NLM-CutPlan Orbit
-- Optimal Track Winner LNP: **LNM-Plan** using NLM-CutPlan, NLM-CutPlan Orbit
-- Optimal Track Winner SNP+LNP: **LNM-Plan** using NLM-CutPlan Orbit
-- Satisficing Track Winner SNP: **LNM-Plan** using NLM-CutPlan SAT2
-- Satisficing Track Winner LNP: **LNM-Plan** using NLM-CutPlan SAT
-- Satisficing Track Winner SNP+LNP: **LNM-Plan** using NLM-CutPlan SAT
-- Agile Track Winner SNP: **LNM-Plan** using NLM-CutPlan SAT2
-- Agile Track Winner LNP: **LNM-Plan** using NLM-CutPlan SAT
-- Agile Track Winner SNP+LNP: **LNM-Plan** using NLM-CutPlan SAT
-
 ## Domains
 
-To be updated shortly
+The competition tasks can now be found in the following [Github Repository](https://github.com/ipc2023-numeric/ipc2023-dataset).
 
 ## Registration
 
@@ -121,6 +99,39 @@ The competitors must submit the source code of their planners that will be run b
 We will host repositories of planners ourselves. The repositories will be hosted on Github under the ipc2023-numeric organisation, and they will be kept private until the end of the competition when we make them public, i.e., after the competition is concluded, we plan to make all planners, domains, and all related data accessible from one place.
 We require participants to provide self-contained code, with scripts for compilations and running, “compile” and “run”, respectively. The code should be compilable on a fresh installation of Ubuntu 20.04 LTS, and running has to require only three parameters as an input in the following order: the domain file, the problem file, and the name of the file where the last solution found will be saved.
 The solution format is the usual IPC solution format, which consists of a list of actions separated by a new line.
+
+# After Competition!
+
+## Participant Teams
+
+- **LNM-Plan** [(planner abstract)](abstracts/NLM_CutPlan_Abstract.pdf)[(frozen source)](https://github.com/ipc2023-numeric/team-1) <br />
+  by Ryo Kuroiwa, Alexander Shleyfman and J. Christopher Beck
+- **OMTPlan** [(planner abstract)](https://content.iospress.com/articles/journal-on-satisfiability-boolean-modeling-and-computation/sat220001)[(frozen source)](https://github.com/ipc2023-numeric/team-2) <br />
+  by Francesco Leofante
+
+## Results 
+
+The results were presented at the 33rd International Conference on Automated Planning and Scheduling on July 11 in Prague.
+<img src="pictures/participants.jpg" height="400" alt="IPC attendants"/>
+
+The [presentation slides](results/presentation.pdf) of this talk contain additional details. 
+This is a summary:
+
+- Optimal Track Winner SNP: **LNM-Plan** using NLM-CutPlan Orbit
+- Optimal Track Winner LNP: **LNM-Plan** using NLM-CutPlan, NLM-CutPlan Orbit
+- Optimal Track Winner SNP+LNP: **LNM-Plan** using NLM-CutPlan Orbit
+- Satisficing Track Winner SNP: **LNM-Plan** using NLM-CutPlan SAT2
+- Satisficing Track Winner LNP: **LNM-Plan** using NLM-CutPlan SAT
+- Satisficing Track Winner SNP+LNP: **LNM-Plan** using NLM-CutPlan SAT
+- Agile Track Winner SNP: **LNM-Plan** using NLM-CutPlan SAT2
+- Agile Track Winner LNP: **LNM-Plan** using NLM-CutPlan SAT
+- Agile Track Winner SNP+LNP: **LNM-Plan** using NLM-CutPlan SAT
+
+<img src="pictures/1.jpg" height="400" alt="Winning team" />
+
+Per-domain tables of solved instances are linked here for the [Satisficing Track](sat.csv) and for the [Optimal Track](opt.csv).
+Note that when evaluating the tables, planners that were not able to process LNP problems have zeroes in the respective cells. For comparisons reasons, we used a well known greedy best first search algorithm with state of the arte heuristics from the literature (Scala et al. 2020) and $A^*$ with the numeric extension of the $h_{max}$ heuristic (Scala et al. 2017) for the satisficing and the optimal track respectively. These are implemented in the ENHSP planning system.
+
 
 
 ## Organizers
